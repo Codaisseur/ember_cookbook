@@ -1,0 +1,80 @@
+{
+  "recipes" : {
+    "beef-broccoli" : {
+      "cookTime" : 20,
+      "description" : "An easy recipe for authentic Chinese beef and broccoli.",
+      "image" : "http://www.savorytooth.com/wp-content/uploads/2017/02/crazy-good-beef-and-broccoli-2.jpg",
+      "ingredientGroups" : [{"description": "beef", "ingredients": [
+        {"description": "1 pound flank steak sliced into 1/4 inch thick strips"},
+        {"description": "3 cups small broccoli florets"},
+        {"description": "1/2 cup beef stock"},
+        {"description": "5 cloves garlic minced"},
+        {"description": "2 tablespoons corn starch"},
+        {"description": "1 tablespoon canola oil"}
+      ]}],
+      "instructions" : [
+        {"description": "Toss sliced beef in a large bowl with corn starch."},
+        {"description": "Heat canola oil in a pan over medium heat for a few minutes. Add sliced beef and cook until it browns, a few minutes, stirring frequently. Transfer to a plate and set aside."},
+        {"description": "Add broccoli and garlic to the pan, and stir. Add beef broth. Let simmer until the broccoli is tender, about 10 minutes, stirring occasionally."},
+        {"description": "While waiting for the broccoli to cook, combine all of the sauce ingredients in a bowl and mix well."},
+        {"description": "Add the reserved beef and sauce to the pan, and stir. Let simmer for 5 minutes so the sauce thickens a bit."},
+        {"description": "Serve beef and broccoli over cooked white rice."}
+      ],
+      "prepTime" : 15,
+      "source" : "http://www.savorytooth.com/beef-broccoli/",
+      "title" : "Crazy good beef and broccoli"
+    },
+    "banana-pancakes-pecans":
+      { "title": "Banana pancakes with pecans",
+      "description": "These heart-shaped banana pancakes are made using ripe bananas and topped with chopped pecans, maple syrup, and whipped cream.",
+      "source": "http://www.savorytooth.com/banana-pancakes-pecans/",
+      "prepTime": 10,
+      "cookTime": 20,
+      "image": "http://www.savorytooth.com/wp-content/uploads/2017/02/banana-pancake-recipe-pecans-1.jpg",
+
+      "ingredientGroups": [{"description": "Pancakes", "ingredients":
+        [
+
+        {"description": "1 cup all-purpose flour"},
+        {"description": "1 cup whole milk"},
+        {"description": "2 ripe bananas, mashed"},
+        {"description": "1 egg, beaten"},
+        {"description": "1 tablespoon white sugar"},
+        {"description": "2 tablespoons canola oil"},
+        {"description": "1 tablespoon baking powder"},
+        {"description": "1/2 teaspoon vanilla extract"},
+        {"description": "1/4 teaspoon salt"}
+      ]}],
+      "instructions" : [
+        {"description": "Combine and mix dry ingredients together in a bowl: flour, white sugar, baking powder, and salt. Repeat for wet ingredients in another bowl: whole milk, egg, canola oil, vanilla extract, and mashed bananas."},
+        {"description": "Pour the wet mixture into the dry mixture, stirring it in. Stop stirring as soon as it is just blended; it will be a little lumpy."},
+        {"description": "Heat a nonstick pan over medium-low for a few minutes. Add silicon heart molds to the pan. Pour about 2 tablespoons into each mold. Cook until the bottom of the pancake is golden brown, about 2 minutes, and then remove the mold and flip the pancake, cooking another minute until done. Repeat with more pancakes until the batter is depleted."},
+        {"description": "Serve the pancakes with toppings of your choice, such as sliced bananas, powdered sugar, chopped pecans, maple syrup, and whipped cream."}
+      ]
+    },
+      "best-chicken-tikka-masala": {
+        "title": "Best chicken tikka masala",
+        "description": "This chicken tikka masala recipe is restaurant quality, made from scratch, and easy to make.",
+      "source": "http://www.savorytooth.com/best-chicken-tikka-masala/",
+      "prepTime": 90,
+      "cookTime": 30,
+      "image": "http://www.savorytooth.com/wp-content/uploads/2016/01/chicken-tikka-masala-closeup-square.jpg",
+
+      "ingredientGroups": [{"description": "Chicken", "ingredients":
+        [{"description": "12 ounces boneless and skinless chicken breasts chopped"},
+        {"description": "1 cup plain 2% fat greek yogurt about 6-7 ounces"},
+        {"description": "1 tablespoon garam masala"},
+        {"description": "1 tablespoon lemon juice about half a lemon"},
+        {"description": "2 teaspoons black pepper"},
+        {"description": "1/4 teaspoon ground ginger"}
+      ]}],
+
+      "instructions" : [
+        {"description": "Marinating the chicken: Combine all marinade ingredients in a bowl and mix well. Add chicken chunks and coat with the marinade. Let sit in the refrigerator for at least 1 hour."},
+        {"description": "Sautéing the chicken: Add chicken chunks along with the marinade to a 3-quart pan over medium-high heat and sauté until the chicken is mostly cooked, about 5 minutes."},
+        {"description": "Simmering the sauce: Reduce to medium heat. Add butter, jalapeño, and garlic to the same pan. Cook until the garlic browns, about 1 minute. Add the tomato sauce, heavy whipping cream, garam masala, paprika, and salt. Mix well. Bring to a boil and then decrease heat to a simmer over medium-low heat. Simmer until the sauce thickens, about 20 minutes, stirring occasionally."},
+        {"description": "Serving: Serve with basmati rice or naan. Garnish with cilantro or parsley."}
+      ]
+    }
+}
+}

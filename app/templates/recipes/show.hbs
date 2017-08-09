@@ -24,11 +24,17 @@
         <dd>{{model.cookTime}}</dd>
       </dl>
         <h3>Ingredients</h3>
-        <ul>
-          {{#each model.ingredients as |ingredient|}}
+
+        {{#each model.ingredientGroups as |ingredientGroup|}}
+
+          <h4>{{ingredientGroup.description}}</h4>
+          <ul>
+          {{#each ingredientGroup.ingredients as |ingredient|}}
             <li>{{ingredient.description}}</li>
           {{/each}}
-        </ul>
+          </ul>
+        {{/each}}
+
         <h3>Instructions</h3>
         <dl >
           {{#each model.instructions as |instruction index|}}
