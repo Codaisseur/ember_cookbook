@@ -1,0 +1,41 @@
+<article class="listing">
+  <div class="row">
+    <div class="col-sm-6">
+      <div {{action 'toggleImageSize'}} class="recipe-image {{if isWide "wide"}}" style={{background-image model.image}} ></div>
+      <dl>
+        <dt>source</dt>
+        <dd><a href="{{model.source}}">{{model.source}}</a></dd>
+      </dl>
+    </div>
+    <div class="col-sm-6">
+      <h3>{{model.title}}<small>{{#link-to "recipes.edit" model class="btn btn-default btn-sm"}}Edit{{/link-to}}</small></h3>
+      <p>
+        {{model.description}}
+      </p>
+
+      <dl>
+        <dt>
+          Minutes to prepare
+        </dt>
+        <dd>{{model.prepTime}}</dd>
+        <dt>
+          Minutes to cook
+        </dt>
+        <dd>{{model.cookTime}}</dd>
+      </dl>
+        <h3>Ingredients</h3>
+        <ul>
+          {{#each model.ingredients as |ingredient|}}
+            <li>{{ingredient.description}}</li>
+          {{/each}}
+        </ul>
+        <h3>Instructions</h3>
+        <dl >
+          {{#each model.instructions as |instruction index|}}
+            <dt>Step {{index}}</dt>
+            <dd>{{instruction.description}}</dd>
+          {{/each}}
+        </dl>
+        </div>
+    </div>
+</article>

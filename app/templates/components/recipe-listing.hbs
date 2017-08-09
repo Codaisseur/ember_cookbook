@@ -1,0 +1,20 @@
+<article class="listing">
+  <h3>{{#link-to "recipes.show" recipe}}{{recipe.title}}{{/link-to}}<small>{{#link-to "recipes.edit" recipe class="btn btn-default btn-sm"}}Edit{{/link-to}}</small></h3>
+  <p>
+    {{recipe.description}}
+  </p>
+  <div {{action 'toggleImageSize'}} class="recipe-image {{if isWide "wide"}}" style={{background-image recipe.image}} ></div>
+  <dl>
+    <dt>source</dt>
+    <dd><a href="{{recipe.source}}">{{recipe.source}}</a></dd>
+    <dt>
+      Minutes to prepare
+    </dt>
+    <dd>{{recipe.prepTime}}</dd>
+    <dt>
+      Minutes to cook
+    </dt>
+    <dd>{{recipe.cookTime}}</dd>
+  </dl>
+  {{yield}}
+</article>
