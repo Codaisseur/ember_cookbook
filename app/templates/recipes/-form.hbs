@@ -1,40 +1,24 @@
 <div class="form-horizontal">
-  <div class="form-group">
-    <label class="col-sm-2 control-label">Title</label>
-    <div class="col-sm-10">
-      {{input type="text" value=model.title class="form-control"}}
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="col-sm-2 control-label">Description</label>
-    <div class="col-sm-10">
-      {{textarea value=model.description class="form-control" rows="3"}}
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="col-sm-2 control-label">URL of source</label>
-    <div class="col-sm-10">
-      {{input type="text" value=model.source class="form-control"}}
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="col-sm-2 control-label">Minutes to prepare</label>
-    <div class="col-sm-10">
-      {{input type="text" value=model.prepTime class="form-control"}}
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="col-sm-2 control-label">Minutes to cook</label>
-    <div class="col-sm-10">
-      {{input type="text" value=model.cookTime class="form-control"}}
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="col-sm-2 control-label">Link to image</label>
-    <div class="col-sm-10">
-      {{input type="text" value=model.image class="form-control"}}
-    </div>
-  </div>
+
+  {{#form-row label='Title'}}
+    {{input type="text" value=model.title class="form-control"}}
+  {{/form-row}}
+  {{#form-row label='Description'}}
+    {{textarea value=model.description class="form-control" rows="3"}}
+  {{/form-row}}
+  {{#form-row label='URL of source'}}
+    {{input type="text" value=model.source class="form-control"}}
+  {{/form-row}}
+  {{#form-row label='Minutes to prepare'}}
+    {{input type="text" value=model.prepTime class="form-control"}}
+  {{/form-row}}
+  {{#form-row label='Minutes to cook'}}
+    {{input type="text" value=model.cookTime class="form-control"}}
+  {{/form-row}}
+  {{#form-row label='Link to image'}}
+    {{input type="text" value=model.image class="form-control"}}
+  {{/form-row}}
+
 
   <div class="form-group nested-model">
     <label class="col-sm-2 control-label">Ingredients</label>
