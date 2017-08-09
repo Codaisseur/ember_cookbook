@@ -32,7 +32,7 @@
         <h3>Instructions</h3>
         <dl >
           {{#each model.instructions as |instruction index|}}
-            <dt>Step {{index}}</dt>
+            <dt>Step {{increment index}}</dt>
             <dd>{{instruction.description}}</dd>
           {{/each}}
         </dl>
