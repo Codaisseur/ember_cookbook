@@ -15,8 +15,13 @@ export default Ember.Route.extend({
       this.controller.get('model').rollbackAttributes();
     },
 
-    addIngredient() {
-      this.currentModel.get('ingredients').pushObject(
+    addIngredientGroup() {
+      this.currentModel.get('ingredientGroups').pushObject(
+        this.get('store').createRecord('ingredientGroup')
+      );
+    },
+    addIngredient(group) {
+      group.get('ingredients').pushObject(
         this.get('store').createRecord('ingredient')
       );
     },

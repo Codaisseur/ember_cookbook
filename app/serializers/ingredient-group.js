@@ -2,7 +2,6 @@ import FirebaseSerializer from 'emberfire/serializers/firebase';
 
 export default FirebaseSerializer.extend({
   attrs: {
-    ingredientGroups: { embedded: 'always' },
-    instructions: { embedded: 'always' }
+    ingredients: { embedded: 'always' }
   }
 });
