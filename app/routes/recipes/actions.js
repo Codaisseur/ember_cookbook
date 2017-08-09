@@ -24,6 +24,12 @@ export default Ember.Route.extend({
       this.currentModel.get('instructions').pushObject(
         this.get('store').createRecord('instruction')
       );
+    },
+    removeIngredient(ingredient) {
+      this.currentModel.get('ingredients').removeObject(ingredient);
+    },
+    removeInstruction(instruction) {
+      this.currentModel.get('instructions').removeObject(instruction);
     }
   }
 });
