@@ -8,3 +8,17 @@
     min-height: 800px;
   }
 }
+.details{
+  .recipe-image{
+    min-height: 500px;
+  }
+}
+
+.nested-model {
+  .input-group {
+    margin-bottom: 10px;
+    .input-group-addon.remove {
+      padding: 0;
+    }
+  }
+}
